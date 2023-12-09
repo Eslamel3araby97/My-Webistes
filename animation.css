@@ -1,0 +1,242 @@
+
+@keyframes typing{
+    0%{
+    content: 'I Am |';
+    }
+    1%{
+        content: 'I Am L|';
+    }
+    2%{
+        content: 'I Am La|';
+    }
+    3%{
+        content: 'I Am Lar|';
+    }
+    4%{
+        content: 'I Am Lary|';
+    }
+    5%{
+        content: 'I Am Lary |';
+    }
+    6%{
+        content: 'I Am Lary D|';
+    }
+    7%{
+        content: 'I Am Lary Da|';
+    }
+    8%{
+        content: 'I Am Lary Dan|';
+    }
+    9%{
+        content: 'I Am Lary Dani|';
+    }
+    10%{
+        content: 'I Am Lary Danie|';
+    }
+    11%{
+        content: 'I Am Lary Daniel|';
+    }
+    12%{
+        content: 'I Am Lary Daniels|'; 
+    }
+    22%{
+        content: 'I Am Lary Daniels|';
+    }
+    23%{
+        content: 'I Am Lary Daniel|';
+    }
+    24%{
+        content: 'I Am Lary Danie|';
+    }
+    25%{
+        content: 'I Am Lary Dani|';
+    }
+    26%{
+        content: 'I Am Lary Dan|';
+    }
+    27%{
+        content: 'I Am Lary Da';
+    }
+    28%{
+        content: 'I Am Lary D|';
+    }
+    29%{
+        content: 'I Am Lary|';
+    }
+    30%{
+        content: 'I Am Lar|';
+    }
+    31%{
+        content: 'I Am La|';
+    }
+    32%{
+        content: 'I Am L|';
+    }
+    33%{
+        content: 'I Am |'; 
+    }
+    34%{
+        content: 'I Am |';
+    }
+    35%{
+        content: 'I Am D|';
+    }
+    36%{
+        content: 'I Am De|';
+    }
+    37%{
+        content: 'I Am Dev|';
+    }
+    38%{
+        content: 'I Am Deve|';
+    }
+    39%{
+        content: 'I Am Devel|';
+    }
+    40%{
+        content: 'I Am Develo|';
+    }
+    41%{
+        content: 'I Am Develop|';
+    }
+    42%{
+        content: 'I Am Develope|';
+    }
+    43%{
+        content: 'I Am Developer|';
+    }
+    52%{
+        content: 'I Am Developer|';
+    }
+    53%{
+        content: 'I Am Develope|';
+    }
+    54%{
+        content: 'I Am Develop|';
+    }
+    55%{
+        content: 'I Am Develo|';
+    }
+    56%{
+        content: 'I Am Devel|';
+    }
+    57%{
+        content: 'I Am Deve|';
+    }
+    58%{
+        content: 'I Am Dev|';
+    }
+    59%{
+        content: 'I Am De|';
+    }
+    60%{
+        content: 'I Am D|';
+    }
+   61%{
+        content: 'I Am |';
+    }
+   62%{
+        content: 'I Am |';
+    }
+   63%{
+        content: 'I Am D|';
+    }
+   64%{
+        content: 'I Am De|';
+    }
+   65%{
+        content: 'I Am Des|';
+    }
+   66%{
+        content: 'I Am Desi|';
+    }
+   67%{
+        content: 'I Am Desig|';
+    }
+   68%{
+        content: 'I Am Design|';
+    }
+   69%{
+        content: 'I Am Designe|';
+    }
+   70%{
+        content: 'I Am Designer|';
+    }
+    80%{
+        content: 'I Am Designer|';
+    }
+   81%{
+        content: 'I Am Designe|';
+    }
+  82%{
+        content: 'I Am Design|';
+    }
+  83%{
+        content: 'I Am  Desig|';
+    }
+  84%{
+        content: 'I Am Desi|';
+    }
+  85%{
+        content: 'I Am Des|';
+    }
+  86%{
+        content: 'I Am De|';
+    }
+  87%{
+        content: 'I Am D|';
+    }
+  89%{
+        content: 'I Am |';
+    }
+  100%{
+        content: 'I Am|';
+    }
+  
+
+}
+
+
+.bar-1{
+    animation-name: increasement-95;
+    animation-duration: 1.2s;
+    width: 95%;
+    animation-timing-function:ease-out;
+ }
+ .bar-2{
+     animation-name: increasement-80;
+     animation-duration: 1.2s;
+     width: 80%; 
+     animation-timing-function:ease-out;
+  }
+  .bar-3{
+     animation-name: increasement-90;
+     animation-duration: 1.2s;
+     width: 90%;
+     animation-timing-function:ease-in-out;
+  }
+ 
+ @keyframes increasement-95{
+     from {
+         width: 20%;
+     }
+     to {
+         width: 95%;
+     }
+ }
+ @keyframes increasement-80{
+     from {
+         width: 20%;
+     }
+     to {
+         width: 80%;
+     }
+ }
+ @keyframes increasement-90{
+     from {
+         width: 20%;
+     }
+     to {
+         width: 90%;
+     } 
+    }
